@@ -1,0 +1,24 @@
+Hello Servlet
+Servlet is a technology/API/class that is used to handle requests in web applications and it resides on server side. Spring Boot uses Servlet to receive requests from client side.
+
+There are two ways in Spring Boot to use Servlet Api:
+
+Use @ServletComponentScan annotation.
+Use @Bean annotation.
+
+Hello Servlet Example Prep
+Create a package under com.example.springboothelloworld and name it "servlet".
+
+Create a "HelloServlet" Java class under servlet package.
+
+Add java code to the class. Your class should like the below code:
+
+Check HelloServlet.java
+
+add @ServletComponentScan annotation under @SpringBootApplication in your SpringBootHelloworldApplication Java class.
+Again, please make sure to use red bulb for missing imports.
+
+Stop (Control + C (Command+C on Mac) and Run the command below to start the application:
+
+mvn spring-boot:run
+When the application is ready, start a web browser and goto http://localhost:8080/helloServlet. You should see “Running Hello Servlet doGet method” printed in your console.
